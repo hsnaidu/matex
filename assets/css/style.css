@@ -143,6 +143,7 @@ h6 {
   color: #fff;
 }
 
+
 #header .logo img {
   max-height: 40px;
 }
@@ -705,14 +706,14 @@ section {
 }
 
 .our-values .card:hover .card-body {
-  background: #ff7f5d;
+  background: transparent
 }
 
 .our-values .card:hover .read-more a,
 .our-values .card:hover .card-title,
 .our-values .card:hover .card-title a,
 .our-values .card:hover .card-text {
-  color: #fff;
+  color: transparent;
 }
 
 /*--------------------------------------------------------------
