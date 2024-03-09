@@ -785,7 +785,14 @@ section {
 }
 
 .services .icon-box:hover .title a {
-  color: #ff7f5d;
+  color: #C70D3A;
+}
+
+.services .icon-box:hover .icon{
+  color: #C70D3A;
+}
+.services .icon-box:hover .icon  a {
+  color: #C70D3A;
 }
 
 .services .description {
@@ -1310,7 +1317,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #ffa790;
+  color: #C70D3A;
 }
 
 .faq .faq-list .icon-show,
@@ -1335,7 +1342,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #ff7f5d;
+  color: #C70D3A;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1362,7 +1369,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ff7f5d;
+  color: #C70D3A;
   float: left;
   width: 44px;
   height: 44px;
@@ -1397,7 +1404,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #ff7f5d;
+  background: #C70D3A;
   color: #fff;
 }
 
@@ -1413,7 +1420,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #C70D3A;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1460,7 +1467,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ff7f5d;
+  border-color: #C70D3A;
 }
 
 .contact .php-email-form input {
@@ -1471,17 +1478,18 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #ff7f5d;
+.contact .php-email-form button[type=button] {
+  background:white;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #C70D3A;
   transition: 0.4s;
-  border-radius: 4px;
+  border: 1px solid #C70D3A;
 }
 
-.contact .php-email-form button[type=submit]:hover {
-  background: #ff9377;
+.contact .php-email-form button[type=button]:hover {
+  background: #C70D3A;
+  color: white;
 }
 
 @keyframes animate-loading {
@@ -1634,7 +1642,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ff7f5d;
+  background: #C70D3A;
   color: #fff;
   text-decoration: none;
 }
